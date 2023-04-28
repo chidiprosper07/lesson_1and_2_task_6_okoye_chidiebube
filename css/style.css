@@ -50,3 +50,48 @@ table {
 
 
 /* Write your css below here */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+fieldset {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+	border-radius: 5px;
+}
+
+footer {
+    background-color: #1ae643;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
